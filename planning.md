@@ -1,0 +1,52 @@
+- - `Techadon Todo app planning`
+    - - # Instructions 
+        - - Create  a  single  web  app,  the  app  should  allow  adding  and
+            - -  removing  of  todo  items.  
+        - - The  app  should  be  written  in  react  and  it  should  use
+            - - local  storage  to  store  items  in  the  browser.
+
+        - - # Components 
+            - - 1. Input
+                - - Functionality 
+                    - - Default value should be empty string (Or add placeholder text 'Add todo')
+                    - - Should read input via onChange
+                    - - Should have a helper function which will handleSubmit
+                        - - This helper function should 
+                            - - Persist Todo to the localStorage 
+                - - Helper Functions?  
+                    - - Yes
+                        - - `onSubmit`
+                            - - Create a Todo
+                - - State? 
+                    - - Data Type
+                        - - Array 
+                    - - Yes
+                - - Props? 
+                    - - No  
+            - - 2. Show todo
+                - - Functionality 
+                    - - map over Todo's 
+                        - - use index as id for react key requirement
+                - - Helper Functions? 
+                    - - Yes
+                        - - `RenderList`
+                            - - Use Map function here 
+                        - - `onDelete` 
+                            - - Delete a Todo
+                                - - Use the id (index) as ref to remove from array  
+                - - State? 
+                    - - No 
+                - - Props? 
+                    - - Yes (Will receive from Input) 
+                        - - Pass the Todo array from the Input comp as Props 
+                            - - to ShowTodo component
+                                - - then map over it into an li  
+
+- - `NOTES`
+    - - Have the remove todo inside the input comp 
+        - - pass that function down as a prop and use like that
+
+    - - `10/02/2022`
+        - - `Resource`
+            - - [https://youtu.be/74ThcF5JqzU]
+        - - Understand this custom hook and apply it to your project 
