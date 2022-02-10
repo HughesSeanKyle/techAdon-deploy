@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/techAdon-deploy/static/css/main.964fdded.css",
+    "main.js": "/techAdon-deploy/static/js/main.2e7c6860.js",
+    "index.html": "/techAdon-deploy/index.html",
+    "main.964fdded.css.map": "/techAdon-deploy/static/css/main.964fdded.css.map",
+    "main.2e7c6860.js.map": "/techAdon-deploy/static/js/main.2e7c6860.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964fdded.css",
+    "static/js/main.2e7c6860.js"
+  ]
+}
